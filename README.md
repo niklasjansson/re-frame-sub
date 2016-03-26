@@ -5,7 +5,7 @@ An example implementation of helpers for re-frame subscriptions for when you jus
 ## Usage
 ```
 (re-frame-sub.sub-helpers/register-simple-subs
-  [:simple-keyword
+  [:simple-keyword              ;both name of reaction and lookup position in db
    [:name-of-reaction-2 :keyword-to-lookup]
    [:name-of-reaction-3 :nested :list :of :keywords]])
 ```
